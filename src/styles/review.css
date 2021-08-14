@@ -1,0 +1,341 @@
+.load-more-panel {
+    width: 100%;
+    border: 1px solid RGB(151, 151, 151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    border-radius: 22px;
+    margin-top: 32px;
+    color: RGBA(0, 0, 0, 0.52);
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.load-more-panel:hover {
+    background: rgba(0,0,0, 0.02);
+}
+
+.review-container {
+    margin-top: 50px;
+}
+
+.review-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.review-header-rating {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    height: 20px;
+}
+
+.header-info {
+    margin-left: 8px;
+}
+
+.header-info span{
+    margin-top: 8px;
+    color: RGBA(0, 0, 0, 0.52);
+    font-size: 12px;
+}
+
+.header-info .name {
+    font-size: 14px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    color: #000;
+} 
+
+.header-photo {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-body {
+    font-size: 16px;
+    margin-top: 18px;
+    max-width: 760px;
+}
+
+.review-interaction {
+    margin-top: 21px;
+}
+
+.interaction-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 687px;
+    width: 100%;
+}
+
+.interaction-panel div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.interaction-panel svg {
+    margin-right: -12px;
+}
+
+.review-rate-star-row {
+    width: 100px;
+}
+
+.review-rate-star-row svg {
+    width: 16px;
+    fill: RGB(255, 206, 0);
+}
+
+.interaction-panel span {
+    color: RGBA(0, 0, 0, 0.52);
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+
+/* comments */
+
+.reviews-comments-container {
+    max-width: 460px;
+    width: 460px;   
+    position: relative;
+}
+
+.your-comment-input-container {
+    width: 460px;
+    border: 1px solid RGBA(0, 0, 0, 0.26);
+    padding: 9px 9px 14px 9px;
+    margin-top: 16px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.your-comment-input-container > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.your-comment-panel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+
+.your-comment-panel div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 34px;
+    border-radius: 17px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 16px;
+    box-sizing: border-box;
+}
+
+.your-comment-panel > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.your-comment-panel .rules {
+    width: 249px;
+    background: RGBA(0, 0, 0, 0.06);
+    padding: 0 10px 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: RGBA(0, 0, 0, 0.52);
+}
+
+.your-comment-panel .cancel {
+    width: 90px;
+    background: RGBA(0, 0, 0, 0.06);
+    color: black;
+}
+
+.your-comment-panel .send {
+    width: 104px;
+    background: black;
+    color: white;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-input-photo {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: RGBA(0, 0, 0, 0.12);
+    border-radius: 50%;
+}
+
+.your-comment-input-container span {
+    margin-left: 8px;
+    color: black;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 900;
+}
+
+.your-comment-input-container input {
+    border: 0;
+    outline: none;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.your-comment-input-container input:active {
+    border: 0;
+    outline: none;
+}
+
+.your-comment-input-container input::placeholder {
+    font-size: 14px;
+    color: RGBA(0, 0, 0, 0.51);
+    line-height: 16px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 460px;
+    max-width: 460px;
+}
+
+.comment-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: RGBA(0, 0, 0, 0.12);
+    color: RGBA(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+
+.comment-body {
+    width: 422px;
+    height: auto;
+    border-radius: 8px;
+    background: RGBA(0, 0, 0, 0.06);
+    padding: 16px 9px 10px 16px;
+    margin-left: 8px;
+}
+
+.comment-header span {
+    margin-right: 5px;
+    font-size: 12px;
+    color: RGBA(0, 0, 0, 0.52);
+}
+
+.comment-header .name {
+    color: black;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.comment-text {
+    margin-top: 5px;
+}
+
+.comment-panel {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: RGBA(0, 0, 0, 0.52);
+    font-size: 14px;
+}
+
+.comment-panel div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.comment-panel span {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+@media ( max-width: 768px ) {
+    .review-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header-info {
+        flex-direction: column;
+        margin-top: 4px;
+        margin-left: 0;
+    }
+    .review-rate-star-row {
+        position: relative;
+        margin: 0;
+    }
+    .review-header-rating {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: fit-content;
+    }
+    .interaction-panel {
+        flex-direction: column;
+        width: 100%
+    }
+    .interaction-panel > div {
+        flex-wrap: wrap;
+    }
+    .reviews-comments-container {
+        width: 100%
+    }
+    .reviews-comments-container > div {
+        width: 100%
+    }
+
+    .comment {
+        flex-direction: column;
+    }
+    .comment > div {
+        align-self: flex-start;
+        margin-left: 0;
+    }
+    .comment-body {
+        width: 100%;
+        margin-top: 8px;
+    }
+    .your-comment-panel > div {
+        margin-bottom: 4px;
+    }
+}
